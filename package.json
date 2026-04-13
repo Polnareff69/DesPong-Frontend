@@ -1,0 +1,24 @@
+{
+  "name": "despongo-frontend",
+  "version": "1.0.0",
+  "description": "Estructura inicial para un proyecto frontend en React preparado para consumir una API.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}

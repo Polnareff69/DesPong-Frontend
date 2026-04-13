@@ -1,0 +1,206 @@
+.profile-bg {
+  min-height: 100vh;
+  background: #2c3140;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-container {
+  background: #23273a;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+  width: 350px;
+  padding-bottom: 24px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-header {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-banner {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  background: #181c27;
+}
+
+.profile-avatar-section {
+  position: absolute;
+  left: 24px;
+  top: 48px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
+  background: #181c27;
+}
+
+.profile-name-status {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.profile-name {
+  color: #ffe066;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.profile-status {
+  color: #00e676;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.profile-info-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding: 0 18px;
+  gap: 12px;
+}
+
+.profile-info-box {
+  background: #181c27;
+  border-radius: 10px;
+  padding: 16px 14px;
+  flex: 2;
+  color: #fff;
+  font-size: 0.98rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.profile-flag {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.profile-league-box {
+  background: #181c27;
+  border-radius: 10px;
+  padding: 16px 10px;
+  flex: 1;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.profile-league-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.profile-league-img {
+  width: 48px;
+  height: 48px;
+}
+
+.profile-followers {
+  color: #ffe066;
+}
+
+.profile-activity {
+  width: 100%;
+  margin-top: 24px;
+  padding: 0 18px;
+}
+
+.profile-activity-title {
+  color: #bdbdbd;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.profile-activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-activity-item {
+  background: #181c27;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 12px;
+}
+
+.profile-activity-item.victory .profile-activity-result {
+  color: #00e676;
+}
+
+.profile-activity-item.defeat .profile-activity-result {
+  color: #ff5252;
+}
+
+.profile-activity-champ {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.profile-activity-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.profile-activity-result {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.profile-activity-stats {
+  color: #bdbdbd;
+  font-size: 0.97rem;
+}
+
+.profile-activity-date {
+  color: #888;
+  font-size: 0.93rem;
+}
+
+.profile-follow-btn {
+  margin-top: 22px;
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 0;
+  width: 90%;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.profile-follow-btn:hover {
+  background: #1976d2;
+}
